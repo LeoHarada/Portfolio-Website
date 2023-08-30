@@ -1,0 +1,22 @@
+{
+  "name": "portfolio-website",
+  "version": "1.0.0",
+  "description": "package to initialize portfolio website",
+  "main": "home.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeoHarada/Portfolio-Website.git"
+  },
+  "author": "Leo Harada",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeoHarada/Portfolio-Website/issues"
+  },
+  "homepage": "https://github.com/LeoHarada/Portfolio-Website#readme",
+  "dependencies": {
+    "@emailjs/browser": "^3.11.0"
+  }
+}
