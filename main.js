@@ -13,7 +13,7 @@ emailjs.init(publicKey);
 
 contactForm.addEventListener('submit', e => {
     e.preventDefault();
-    submitButton.innerText = "Just a Moment...";
+    submitButton.innerText = "Sending...";
 
     const inputFields = {
         subject: subjectInput.value,
@@ -24,7 +24,7 @@ contactForm.addEventListener('submit', e => {
 
     emailjs.send(serviceId, templateId, inputFields)
     .then(() => {
-        submitButton.innerText = "Message Sent Successfuly";
+        submitButton.innerText = "Sent!";
 
         subjectInput.value = "";
         nameInput.value = "";
