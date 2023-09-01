@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leo Harada's Website Portfolio</title>
@@ -13,45 +14,242 @@
         </a>
         <img id="downloadsign" src="images/downloadsign.png">
         <nav class="navbar">
-            <a href="home.html">
+            <a href="#home">
                 <img class="navbar-icon" src="images/homeghost.png" alt="home">
                 <h3 class="active">HOME</h3>
             </a>
-            <a href="about.html">
+            <a href="#aboutme">
                 <img class="navbar-icon" src="images/aboutghost.png" alt="aboutme">
                 <h3>ABOUT ME</h3>
             </a>
-            <a href="projects.html">
+            <a href="#projects">
                 <img class="navbar-icon" src="images/projectsghost.png" alt="projects">
                 <h3>PROJECTS</h3>
             </a>
-            <a href="contact.html">
+            <a href="#contactme">
                 <img class="navbar-icon" src="images/contactghost.png" alt="contact">
                 <h3>CONTACT</h3>
             </a>
         </nav>
     </header>
+
     <main>
-        <div class="selfie">
-            <div class="selfie-container">
-                <div class="selfie-container-inner">
-                    <img class="selfie-circle" src="images/selfie.png" alt="leopic">
-                    <img class="selfie-img selfie-img1" src="images/selfie-transparent-background.png" alt="leopic">
+        <section id="home">
+            <p>
+                Welcome to my world of innovative and interactive web creations!
+            </p>
+            <p>
+                Whether it's coding, designing, or hitting the soccer field, I 
+                approach every endeavor with the same enthusiasm and dedication. Join 
+                me on this exciting journey as I continue to push the boundaries of web 
+                development and design.
+            </p>
+        </section>
+        <section id="aboutme">
+            <div class="wrapper">
+                <div class="selfie">
+                    <div class="selfie-container">
+                        <div class="selfie-container-inner">
+                            <img class="selfie-circle" src="images/selfie.png" alt="leopic">
+                            <img class="selfie-img selfie-img1" src="images/selfie-transparent-background.png" alt="leopic">
+                        </div>
+                    </div>
+                </div>
+                <div class="selfie-details">
+                    <img id="leoharada-logo" src="images/leoharada.png">
+                    <h2 id="selfie-job-title">Fullstack Software Engineer/Web Developer</h2>
+                    <span>
+                        <a class="exclude-from-navbar" href="https://www.linkedin.com/in/leoharada/">
+                            <img class="selfie-link" src="images/linkedin.png" alt="linkedin">
+                        </a>
+                        <a class="exclude-from-navbar" href="https://github.com/LeoHarada">
+                            <img class="selfie-link" src="images/github.png" alt="github">
+                        </a>
+                    </span>
+                </div>
+                <div class="text-container">
+                    <h3>About me</h3>
+                    <p>Born and raised in the beautiful paradise of Honolulu, Hawaii, 
+                        I have always had a deep appreciation for nature, beaches, and the 
+                        thrill of outdoor adventures. I'm a firm believer in maintaining a 
+                        healthy lifestyle, which extends to my love for physical activity. 
+                        Staying active not only fuels my body but also my creativity and determination.
+                    </p>
+                    <p>Soccer has been a lifelong passion of mine, starting at the tender 
+                        age of 7. My dedication to the sport earned me a full-ride scholarship 
+                        to play Division 1 soccer at the University of California, Irvine, 
+                        where I earned a BS in Business Economics, minoring in Business Management.
+                    </p>
+                    <p>
+                        As a fullstack software engineer, I've channeled my passion for 
+                        creativity into building and designing websites that are not only 
+                        functional but also fun and engaging. I thrive on infusing interactive 
+                        elements and playful themes into my web designs, creating digital 
+                        experiences that leave a lasting impression.
+                    </p>
                 </div>
             </div>
-        </div>
-        <div class="selfie-details">
-            <h3 id="selfie-name">Leo Harada</h3>
-            <h2 id="selfie-job-title">Fullstack Software Engineer/Web Developer</h2>
-            <span>
-                <a class="exclude-from-navbar" href="https://www.linkedin.com/in/leoharada/">
-                    <img class="selfie-link" src="images/linkedin.png" alt="linkedin">
-                </a>
-                <a class="exclude-from-navbar" href="https://github.com/LeoHarada">
-                    <img class="selfie-link" src="images/github.png" alt="github">
-                </a>
-            </span>
-        </div>
+        </section>
+
+        <section id="skills-and-tools">
+            <div class="text-container">
+                <h3>Skills and Tools</h3>
+                <div class="devicons-container">
+                    <div class="devicon-box">
+                        <i class="devicon devicon-javascript-plain"></i>
+                        <p>Javascript</p>
+                    </div>
+                    <div class="devicon-box">
+                        <i class="devicon devicon-canva-original"></i>
+                        <p>Canva</p>
+                    </div>
+                    <div class="devicon-box">
+                        <i class="devicon devicon-css3-plain"></i>
+                        <p>CSS3</p>
+                    </div>
+                    <div class="devicon-box">
+                        <i class="devicon devicon-docker-plain"></i>
+                        <p>Docker</p>
+                    </div>
+                    <div class="devicon-box">
+                        <i class="devicon devicon-express-original"></i>
+                        <p>Express</p>
+                    </div>
+                    <div class="devicon-box">
+                        <i class="devicon devicon-git-plain"></i>
+                        <p>Git</p>
+                    </div>
+                    <div class="devicon-box">
+                        <i class="devicon devicon-github-original"></i>
+                        <p>Github</p>
+                    </div>
+                    <div class="devicon-box">
+                        <i class="devicon devicon-html5-plain"></i>
+                        <p>HTML5</p>
+                    </div>
+                    <div class="devicon-box">
+                        <i class="devicon devicon-linux-plain"></i>
+                        <p>Linux</p>
+                    </div>
+                    <div class="devicon-box">
+                        <i class="devicon devicon-mocha-plain"></i>
+                        <p>Mocha</p>
+                    </div>
+                    <div class="devicon-box">
+                        <i class="devicon devicon-mongodb-plain"></i>
+                        <p>MongoDB</p>
+                    </div>
+                    <div class="devicon-box">
+                        <i class="devicon devicon-nodejs-plain"></i>
+                        <p>NodeJS</p>
+                    </div>
+                    <div class="devicon-box">
+                        <i class="devicon devicon-npm-original-wordmark"></i>
+                        <p>npm</p>
+                    </div>
+                    <div class="devicon-box">
+                        <i class="devicon devicon-postgresql-plain"></i>
+                        <p>PostgreSQL</p>
+                    </div>
+                    <div class="devicon-box">
+                        <i class="devicon devicon-react-original"></i>
+                        <p>React</p>
+                    </div>
+                    <div class="devicon-box">
+                        <i class="devicon devicon-redux-original"></i>
+                        <p>Redux</p>
+                    </div>
+                    <div class="devicon-box">
+                        <i class="devicon devicon-sequelize-plain"></i>
+                        <p>Sequelize</p>
+                    </div>
+                    <div class="devicon-box">
+                        <i class="devicon devicon-slack-plain"></i>
+                        <p>Slack</p>
+                    </div>
+                    <div class="devicon-box">
+                        <i class="devicon devicon-ubuntu-plain"></i>
+                        <p>Ubuntu</p>
+                    </div>
+                    <div class="devicon-box">
+                        <i class="devicon devicon-vscode-plain"></i>
+                        <p>VS Code</p>
+                    </div>
+                    <div class="devicon-box">
+                        <i class="devicon devicon-webpack-plain"></i>
+                        <p>Webpack</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="wrapper">
+                <div class="text-container">
+                    <h3>Projects</h3>
+                    <h2>I was born and raised in Hawaii</h2>
+                    <p>About living in Hawaii, love the outdoors, beaches and hikes.</p>
+            
+                    <h2>Played Soccer since I way 7 years old.</h2>
+                    <p>Played in Hawaii and scholarship to play Division 1 at the University of California, Irvine.</p>
+                    
+                    <h2>Passion for tech building and design</h2>
+                    <p>Love building things and designing them in a fun way.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contactme">
+            <div id="contact-container">
+                <h1>Contact Me</h1>
+                <form id="contact-form">
+                    <label for="subject">Subject</label>
+                    <input 
+                    type="text" 
+                    id="subject"
+                    name="subject"
+                    placeholder="How can I help you?"
+                    required
+                    />
+    
+                    <label for="user_name">Name</label>
+                    <input 
+                    type="text" 
+                    id="user_name"
+                    name="user_name"
+                    placeholder="Your name..."
+                    required
+                    />
+    
+                    <label for="user_email">Email</label>
+                    <input 
+                    type="email" 
+                    id="user_email"
+                    name="user_email"
+                    placeholder="example@gmail.com"
+                    required
+                    />
+    
+                    <label for="message">Message</label>
+                    <textarea
+                        id="message"
+                        name="message"
+                        placeholder="Your message..."
+                        required
+                    ></textarea>
+    
+                    <button type="submit" class="submit-button">
+                        Send
+                    </button>
+                </form>
+            </div>
+        </section>
     </main>
+
+    <script type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script src="main.js"></script>
+
 </body>
 </html>
