@@ -9,10 +9,12 @@
 </head>
 <body>
     <header>
-        <a class="exclude-from-navbar" href="images/Leo Harada Resume.pdf" download="Leo Harada Resume">
-            <img id="resumephoto" src="images/resumephoto.png" alt="resume" width="104" height="142">
-        </a>
-        <img id="downloadsign" src="images/downloadsign.png">
+        <div id="resume-stuff">
+            <img id="downloadsign" src="images/downloadsign.png">
+            <a class="exclude-from-navbar" href="images/Leo Harada Resume.pdf" download="Leo Harada Resume">
+                <img id="resumephoto" src="images/resumephoto.png" alt="resume" width="104" height="142">
+            </a>
+        </div>
         <nav class="navbar">
             <a href="#home">
                 <img class="navbar-icon" src="images/homeghost.png" alt="home">
@@ -21,6 +23,10 @@
             <a href="#aboutme">
                 <img class="navbar-icon" src="images/aboutghost.png" alt="aboutme">
                 <h3>ABOUT ME</h3>
+            </a>
+            <a href="#skills-and-tools">
+                <img class="navbar-icon" src="images/skillsandtoolsghost.png" alt="projects">
+                <h3>SKILLS & TOOLS</h3>
             </a>
             <a href="#projects">
                 <img class="navbar-icon" src="images/projectsghost.png" alt="projects">
@@ -35,16 +41,11 @@
 
     <main>
         <section id="home">
-            <p>
-                Welcome to my world of innovative and interactive web creations!
-            </p>
-            <p>
-                Whether it's coding, designing, or hitting the soccer field, I 
-                approach every endeavor with the same enthusiasm and dedication. Join 
-                me on this exciting journey as I continue to push the boundaries of web 
-                development and design.
-            </p>
+            <video src="images/introghost.mp4" loop autoplay muted></video>
         </section>
+        
+        <div class="arrow bounce"></div>
+
         <section id="aboutme">
             <div class="wrapper">
                 <div class="selfie">
@@ -67,8 +68,8 @@
                         </a>
                     </span>
                 </div>
-                <div class="text-container">
-                    <h3>About me</h3>
+                <div class="about-me-text-container">
+                    <h1>Who's this guy?</h1>
                     <p>Born and raised in the beautiful paradise of Honolulu, Hawaii, 
                         I have always had a deep appreciation for nature, beaches, and the 
                         thrill of outdoor adventures. I'm a firm believer in maintaining a 
@@ -91,117 +92,182 @@
             </div>
         </section>
 
+        <div class="arrow bounce"></div>
+
         <section id="skills-and-tools">
-            <div class="text-container">
-                <h3>Skills and Tools</h3>
-                <div class="devicons-container">
-                    <div class="devicon-box">
-                        <i class="devicon devicon-javascript-plain"></i>
-                        <p>Javascript</p>
-                    </div>
-                    <div class="devicon-box">
-                        <i class="devicon devicon-canva-original"></i>
-                        <p>Canva</p>
-                    </div>
-                    <div class="devicon-box">
-                        <i class="devicon devicon-css3-plain"></i>
-                        <p>CSS3</p>
-                    </div>
-                    <div class="devicon-box">
-                        <i class="devicon devicon-docker-plain"></i>
-                        <p>Docker</p>
-                    </div>
-                    <div class="devicon-box">
-                        <i class="devicon devicon-express-original"></i>
-                        <p>Express</p>
-                    </div>
-                    <div class="devicon-box">
-                        <i class="devicon devicon-git-plain"></i>
-                        <p>Git</p>
-                    </div>
-                    <div class="devicon-box">
-                        <i class="devicon devicon-github-original"></i>
-                        <p>Github</p>
-                    </div>
-                    <div class="devicon-box">
-                        <i class="devicon devicon-html5-plain"></i>
-                        <p>HTML5</p>
-                    </div>
-                    <div class="devicon-box">
-                        <i class="devicon devicon-linux-plain"></i>
-                        <p>Linux</p>
-                    </div>
-                    <div class="devicon-box">
-                        <i class="devicon devicon-mocha-plain"></i>
-                        <p>Mocha</p>
-                    </div>
-                    <div class="devicon-box">
-                        <i class="devicon devicon-mongodb-plain"></i>
-                        <p>MongoDB</p>
-                    </div>
-                    <div class="devicon-box">
-                        <i class="devicon devicon-nodejs-plain"></i>
-                        <p>NodeJS</p>
-                    </div>
-                    <div class="devicon-box">
-                        <i class="devicon devicon-npm-original-wordmark"></i>
-                        <p>npm</p>
-                    </div>
-                    <div class="devicon-box">
-                        <i class="devicon devicon-postgresql-plain"></i>
-                        <p>PostgreSQL</p>
-                    </div>
-                    <div class="devicon-box">
-                        <i class="devicon devicon-react-original"></i>
-                        <p>React</p>
-                    </div>
-                    <div class="devicon-box">
-                        <i class="devicon devicon-redux-original"></i>
-                        <p>Redux</p>
-                    </div>
-                    <div class="devicon-box">
-                        <i class="devicon devicon-sequelize-plain"></i>
-                        <p>Sequelize</p>
-                    </div>
-                    <div class="devicon-box">
-                        <i class="devicon devicon-slack-plain"></i>
-                        <p>Slack</p>
-                    </div>
-                    <div class="devicon-box">
-                        <i class="devicon devicon-ubuntu-plain"></i>
-                        <p>Ubuntu</p>
-                    </div>
-                    <div class="devicon-box">
-                        <i class="devicon devicon-vscode-plain"></i>
-                        <p>VS Code</p>
-                    </div>
-                    <div class="devicon-box">
-                        <i class="devicon devicon-webpack-plain"></i>
-                        <p>Webpack</p>
+            <div class="wrapper">
+                <div class="skills-text-container">
+                    <h1>How does he do it?</h1>
+                    <h2>Simple... I get a little help from my friends:</h2>
+                    <div class="devicons-container">
+                        <div class="devicon-box">
+                            <i class="devicon devicon-javascript-plain"></i>
+                            <p>Javascript</p>
+                        </div>
+                        <div class="devicon-box">
+                            <i class="devicon devicon-canva-original"></i>
+                            <p>Canva</p>
+                        </div>
+                        <div class="devicon-box">
+                            <i class="devicon devicon-css3-plain"></i>
+                            <p>CSS3</p>
+                        </div>
+                        <div class="devicon-box">
+                            <i class="devicon devicon-docker-plain"></i>
+                            <p>Docker</p>
+                        </div>
+                        <div class="devicon-box">
+                            <i class="devicon devicon-express-original"></i>
+                            <p>Express</p>
+                        </div>
+                        <div class="devicon-box">
+                            <i class="devicon devicon-git-plain"></i>
+                            <p>Git</p>
+                        </div>
+                        <div class="devicon-box">
+                            <i class="devicon devicon-github-original"></i>
+                            <p>Github</p>
+                        </div>
+                        <div class="devicon-box">
+                            <i class="devicon devicon-html5-plain"></i>
+                            <p>HTML5</p>
+                        </div>
+                        <div class="devicon-box">
+                            <i class="devicon devicon-linux-plain"></i>
+                            <p>Linux</p>
+                        </div>
+                        <div class="devicon-box">
+                            <i class="devicon devicon-mocha-plain"></i>
+                            <p>Mocha</p>
+                        </div>
+                        <div class="devicon-box">
+                            <i class="devicon devicon-mongodb-plain"></i>
+                            <p>MongoDB</p>
+                        </div>
+                        <div class="devicon-box">
+                            <i class="devicon devicon-nodejs-plain"></i>
+                            <p>NodeJS</p>
+                        </div>
+                        <div class="devicon-box">
+                            <i class="devicon devicon-npm-original-wordmark"></i>
+                            <p>npm</p>
+                        </div>
+                        <div class="devicon-box">
+                            <i class="devicon devicon-postgresql-plain"></i>
+                            <p>PostgreSQL</p>
+                        </div>
+                        <div class="devicon-box">
+                            <i class="devicon devicon-react-original"></i>
+                            <p>React</p>
+                        </div>
+                        <div class="devicon-box">
+                            <i class="devicon devicon-redux-original"></i>
+                            <p>Redux</p>
+                        </div>
+                        <div class="devicon-box">
+                            <i class="devicon devicon-sequelize-plain"></i>
+                            <p>Sequelize</p>
+                        </div>
+                        <div class="devicon-box">
+                            <i class="devicon devicon-slack-plain"></i>
+                            <p>Slack</p>
+                        </div>
+                        <div class="devicon-box">
+                            <i class="devicon devicon-ubuntu-plain"></i>
+                            <p>Ubuntu</p>
+                        </div>
+                        <div class="devicon-box">
+                            <i class="devicon devicon-vscode-plain"></i>
+                            <p>VS Code</p>
+                        </div>
+                        <div class="devicon-box">
+                            <i class="devicon devicon-webpack-plain"></i>
+                            <p>Webpack</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
+
+        <div class="arrow bounce"></div>
 
         <section id="projects">
             <div class="wrapper">
-                <div class="text-container">
-                    <h3>Projects</h3>
-                    <h2>I was born and raised in Hawaii</h2>
-                    <p>About living in Hawaii, love the outdoors, beaches and hikes.</p>
-            
-                    <h2>Played Soccer since I way 7 years old.</h2>
-                    <p>Played in Hawaii and scholarship to play Division 1 at the University of California, Irvine.</p>
-                    
-                    <h2>Passion for tech building and design</h2>
-                    <p>Love building things and designing them in a fun way.</p>
+                <div class="projects-container">
+                    <h1>Evidence (Projects)</h1>
+                    <h2>Some things I've put together...</h2>
+                    <div class="project-container">
+                        <img src="images/bernproject.png" alt="bern project">
+                        <div class="project-text-container">
+                            <h3>Bern</h3>
+                            <p>Tired of expensive memberships, crowded gyms/fitness classes, or
+                                just want to find a place to get fit without having to worry 
+                                about finding parking? Bern is centralized hub for fitness 
+                                enthusiasts and instructors, either finding/providing 
+                                private fitness classes in your area!
+                            </p>
+                            <div class="project-links-container">
+                                <a class="exclude-from-navbar live-button" href="https://bern-app.onrender.com/">Live</a>
+                                <a class="exclude-from-navbar github-button" href="https://github.com/Capstone-Team-Red/Bern">Github</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-container-odd">
+                        <img src="images/safebayproject.png" alt="safebay project">
+                        <div class="project-text-container">
+                            <h3>SafeBay</h3>
+                            <p>SafeBay provides a safe and secure solution in storing and 
+                                recovering your seed phrase. Using facial recognition technology, 
+                                we'll have your back in the event you lose your digital wallet. 
+                                Connect your metamask to our website to get started!
+                            </p>
+                            <div class="project-links-container">
+                                <a class="exclude-from-navbar live-button" href="https://safebayproject.web.app/">Live</a>
+                                <a class="exclude-from-navbar github-button" href="https://github.com/rhurst11/SafeBayProject">Github</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-container">
+                        <img src="images/bernproject.png" alt="bern project">
+                        <div class="project-text-container">
+                            <h3>Bern</h3>
+                            <p>Tired of expensive memberships, crowded gyms/fitness classes, or
+                                just want to find a place to get fit without having to worry 
+                                about finding parking? Bern is centralized hub for fitness 
+                                enthusiasts and instructors, either finding/providing 
+                                private fitness classes in your area!
+                            </p>
+                            <div class="project-links-container">
+                                <a class="exclude-from-navbar live-button" href="https://bern-app.onrender.com/">Live</a>
+                                <a class="exclude-from-navbar github-button" href="https://github.com/Capstone-Team-Red/Bern">Github</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-container-odd">
+                        <img src="images/bernproject.png" alt="bern project">
+                        <div class="project-text-container">
+                            <h3>Bern</h3>
+                            <p>Tired of expensive memberships, crowded gyms/fitness classes, or
+                                just want to find a place to get fit without having to worry 
+                                about finding parking? Bern is centralized hub for fitness 
+                                enthusiasts and instructors, either finding/providing 
+                                private fitness classes in your area!
+                            </p>
+                            <div class="project-links-container">
+                                <a class="exclude-from-navbar live-button" href="https://bern-app.onrender.com/">Live</a>
+                                <a class="exclude-from-navbar github-button" href="https://github.com/Capstone-Team-Red/Bern">Github</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
+        <div class="arrow bounce"></div>
+
         <section id="contactme">
             <div id="contact-container">
-                <h1>Contact Me</h1>
+                <h1>Don't be shy... reach out!</h1>
                 <form id="contact-form">
                     <label for="subject">Subject</label>
                     <input 

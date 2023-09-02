@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/LeoHarada/Portfolio-Website#readme",
   "dependencies": {
-    "@emailjs/browser": "^3.11.0"
+    "@emailjs/browser": "^3.11.0",
+    "webkit": "^0.0.0"
   }
 }
