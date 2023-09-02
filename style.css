@@ -302,12 +302,22 @@ main {
     color: white;
 }
 
+.live-button:hover {
+    background-color: white;
+    color: #f0b2c3;
+}
+
 .github-button {
     border: 0px solid;
     background-color: #75c7fb;
     padding: 10px;
     border-radius: 10px;
     color: white;
+}
+
+.github-button:hover {
+    background-color: white;
+    color: #75c7fb;
 }
 
 #contact-container {
