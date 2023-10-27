@@ -240,6 +240,7 @@ a:hover {
     margin-left: 5%;
     margin-right: 5%;
     color: lightslategray;
+    max-width: 65%;
 }
 
 #aboutme,
@@ -247,6 +248,7 @@ a:hover {
 #projects,
 #contactme {
     padding-top: 38%;
+    width: 100%;
 }
 
 .get-in-touch {
@@ -313,15 +315,17 @@ a:hover {
     justify-content: center;
 }
 
-#account-info {
+.account-info {
+    color: red;
+    font-size: small;
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    color: red;
 }
 
 .project-title {
     font-size: xx-large;
+    margin-bottom: 0;
 }
 
 .projects-container {
@@ -359,7 +363,7 @@ a:hover {
     font-size: 4rem;
 }
 
-#safebay-project {
+#rocco808-project {
     margin-bottom: 0;
 }
 
@@ -561,7 +565,6 @@ textarea {
 
     .about-me-text-container {
         margin: 0;
-        max-width: 55%;
     }
 
     .project-container {
@@ -600,5 +603,9 @@ textarea {
 
     .live-button {
         margin-right: 10px;
+    }
+
+    #contact-form {
+        width: 70%;
     }
 }
