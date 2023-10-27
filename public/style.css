@@ -545,7 +545,7 @@ textarea {
 
     #ghost-video {
         margin-top: 0%;
-        margin-bottom: -25%;
+        margin-bottom: -35%;
     }
 
     #resume-stuff {
@@ -573,6 +573,7 @@ textarea {
         align-items: center;
         margin-top: 15%;
         margin-bottom: 5%;
+        gap: 10px;
     }
 
     .project-container-odd {
@@ -581,6 +582,7 @@ textarea {
         align-items: center;
         margin-top: 15%;
         margin-bottom: 5%;
+        gap: 10px;
     }
 
     .project-text-container {
