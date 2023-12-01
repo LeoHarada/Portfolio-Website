@@ -363,8 +363,8 @@ a:hover {
     font-size: 4rem;
 }
 
-#rocco808-project {
-    margin-bottom: 0;
+#bern-project {
+    margin-bottom: 0px;
 }
 
 .live-button {
@@ -546,10 +546,6 @@ textarea {
     #ghost-video {
         margin-top: 0%;
         margin-bottom: -35%;
-    }
-
-    #resume-stuff {
-        display: block;
     }
 
     #aboutme,
