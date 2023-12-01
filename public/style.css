@@ -548,6 +548,10 @@ textarea {
         margin-bottom: -35%;
     }
 
+    #resume-stuff {
+        display: block;
+    }
+
     #aboutme,
     #skills-and-tools,
     #projects,
